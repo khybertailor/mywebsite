@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #353;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+/* Existing Styles... */
+
+#gallery {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#gallery h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    width: 250px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
