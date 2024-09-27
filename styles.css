@@ -114,3 +114,34 @@ footer {
 .gallery-image:hover {
     transform: scale(1.05);
 }
+/* Blinking effect */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.book-btn {
+    background-color: #d9534f; /* Red background */
+    color: white; /* White font */
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #d9534f;
+    transition: transform 0.3s ease;
+    animation: blink 1.5s infinite; /* Apply blink animation */
+}
+
+.book-btn:hover {
+    background-color: #555; /* Gray on hover */
+    color: white;
+    transform: scale(1.05); /* Slight increase in size for motion */
+}
