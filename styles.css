@@ -18,6 +18,30 @@ header {
     color: #fff;
     padding: 20px 0;
 }
+/* Styles for the BOOK Appointment Button */
+.book-appointment {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.book-btn {
+    background-color: #d9534f; /* Red background */
+    color: white; /* White font */
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #d9534f;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.book-btn:hover {
+    background-color: #555; /* Gray on hover */
+    color: white;
+    transform: scale(1.05); /* Slight increase in size for motion */
+}
+
 
 header h1 {
     font-size: 2em;
