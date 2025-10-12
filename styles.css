@@ -160,4 +160,13 @@ iframe {
 .map-link:hover {
     text-decoration: underline;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://www.transparenttextures.com/patterns/arabesque.png');
+    background-color: #f8efe6;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
 
