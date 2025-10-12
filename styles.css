@@ -133,3 +133,31 @@ iframe {
     border: none;
     height: 850px;
 }
+#location {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 2px solid #ddd;
+}
+
+#location h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#location p {
+    font-size: 1.1em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.map-link {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.map-link:hover {
+    text-decoration: underline;
+}
+
